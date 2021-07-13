@@ -1,0 +1,26 @@
+# Python cache
+*__pycache__/
+*.pyc
+
+# Virtualenv dirs
+*env*/
+*venv*/
+
+# .env files
+*.env
+
+# VSCODE
+.vscode/
+
+# Vim
+.vim/
+
+# Media dir
+media/
+
+# Django static dir
+static/
+
+# Chatterbot related files
+chat.sqlite3
+training/

@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "sgd-back"
+version = "0.1.0"
+description = "SGD backend application"
+authors = ["Marco Velarde <marco.avelarde7@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+cryptography = "^3.4.7"
+Django = "^3.2.4"
+django-cors-headers = "^3.7.0"
+django-filter = "^2.4.0"
+djangorestframework = "^3.12.4"
+djangorestframework-simplejwt = "^4.7.1"
+drf-spectacular = "^0.17.2"
+Pillow = "^8.2.0"
+psycopg2-binary = "^2.9.1"
+python-dotenv = "^0.17.1"
+grpcio = "^1.38.0"
+ChatterBot = "^1.1.0"
+chatterbot-corpus = {git = "https://github.com/gunthercox/chatterbot-corpus.git"}
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.24.1"
+grpcio-tools = "^1.38.0"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
